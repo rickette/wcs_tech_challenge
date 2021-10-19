@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --primary: #f76c6c;
+  --primary-bis: #d64b4b;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input#name {
+  border: solid 1px var(--primary);
+  padding: 1em;
+  min-width: 300px;
+  margin-right: 1em;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+input#name:focus,
+input#name:focus-visible,
+input#name:focus-within {
+  background-color: #fff;
+  outline: solid 1px var(--primary-bis);
+}
+
+button[type="submit"] {
+  background: var(--primary);
+  border: none;
+  padding: 1em 2rem;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all .2s ease-out;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: var(--primary-bis);
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-list {
+  columns: 3 250px;
+  gap: 1em;
+  padding: 2em;
+  min-width: calc(100% - 4em);
+  background: #fff5f5;
+}
+
+.member-item {
+  padding: 0.25em 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: var(--primary);
+  padding: 0.25em 0;
+}
