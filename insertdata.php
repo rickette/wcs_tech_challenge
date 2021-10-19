@@ -10,11 +10,11 @@ if(isset($_POST['insert']))
 
     if($query_run)
     {
-        echo '<script> alert("Data Saved"); </script>';
+        echo '<script> alert("Nouvel Argonaute enregistré !"); </script>';
     }
     else
     {
-        echo '<script> alert("Data Not Saved"); </script>';
+        echo '<script> alert("Données non sauvegardées"); </script>';
     }
 }
 ?>
