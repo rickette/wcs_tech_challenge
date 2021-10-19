@@ -55,7 +55,7 @@ include 'insertdata.php';
                     else
                     {
                         ?>
-                            <p colspan="6">Pas encore d'entrées</p>
+                            <p colspan="6">Pas encore d'Argonaute</p>
                         <?php
                     }
                 ?>
